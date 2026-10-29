@@ -3,95 +3,213 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <title>UoPromo-Team</title>
+  <meta name="description"
+        content="Meet the five first-year Software Engineering students at the University of Ottawa behind UoPromo.">
+  <title>Meet the Team | UoPromo</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- <header>
-      <a class="brand" href="index.html" aria-label="UOPROMO home">
-      <img src="asset/icons/coin_icon.png" alt="UoPromo Logo" class="brand-logo">
+  <header>
+    <a class="brand" href="index.html" aria-label="UoPromo home">
+      <img src="assets/Icons/coin_icon.png"
+           alt=""
+           class="brand-logo"
+           width="48"
+           height="48">
       <span>UO<span class="brand-accent">PROMO</span></span>
-      </a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="product.html">Product</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="team.html">Team</a>
-      </nav>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="team.html" aria-current="page">Team</a>
+    </nav>
   </header>
 
-  <!-- Team Introduction -->
   <main>
-    <section class="team-hero">
-    <p class="team-label"> THE PEOPLE BEHIND UOPROMO</p>
-    <h1> Meet Our<span>Team</span></h1>
-      <p>We are a team working together to make discovering and sharing student deals easier, smarter and more accessible</p>
+    <!-- Team Introduction -->
+    <section class="team-hero" aria-labelledby="team-title">
+      <p class="team-label">THE PEOPLE BEHIND UOPROMO</p>
+      <h1 id="team-title">Meet Our <span>Team</span></h1>
+
+      <p>
+        We are five first-year Software Engineering students at the
+        University of Ottawa. Together, we are building UoPromo to make
+        discovering and sharing student deals easier and more accessible.
+      </p>
+
+      <p>
+        By combining our ideas, HTML development, design and CSS skills,
+        we are creating a platform that helps students connect with
+        offers from local businesses and student associations.
+      </p>
     </section>
 
-  <!-- Team Members -->
-    <section class="team-section">
+    <!-- Team Members -->
+    <section class="team-section" aria-labelledby="members-title">
       <div class="team-heading">
-        <h2>Our Team Members</h2>
-        <p>Meet the people bringing the UOPROMO idea to life</p>
+        <h2 id="members-title">Our Team Members</h2>
+        <p>Meet the people bringing the UoPromo idea to life.</p>
       </div>
 
       <div class="team-grid">
+        <!-- Michael Gbadamosi -->
         <article class="team-card">
-          <img src="assets/images/...." alt="Team Member 1" class="team-photo">
+          <!-- Replace this SVG with Michael's portrait when available. -->
+          <svg class="team-photo" width="160" height="160"
+               viewBox="0 0 160 160" role="img"
+               aria-label="Portrait placeholder for Michael Gbadamosi">
+            <rect width="160" height="160" rx="12" fill="#eeeeee"/>
+            <text x="80" y="96" text-anchor="middle"
+                  font-family="Arial, sans-serif" font-size="48"
+                  fill="#444444">MG</text>
+          </svg>
 
-        <div class="team-info">
-          <h3> Team Member 1</h3>
-        </div>
+          <div class="team-info">
+            <h3>Michael Gbadamosi</h3>
+            <p class="team-role">Team Lead &amp; HTML Structure</p>
+            <p class="team-bio">
+              Michael leads the team and develops the HTML structure
+              that brings UoPromo's pages together.
+            </p>
+            <a class="team-github"
+               href="https://github.com/Michael87-cmd"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Michael Gbadamosi on GitHub (opens in a new tab)">
+              GitHub
+            </a>
+          </div>
         </article>
 
-        <!-- Team Member 2 -->
+        <!-- Noah Boulet -->
         <article class="team-card">
-          <img src="assets/images/...." alt="Team Member 2" class="team-photo">
+          <!-- Replace this SVG with Noah's portrait when available. -->
+          <svg class="team-photo" width="160" height="160"
+               viewBox="0 0 160 160" role="img"
+               aria-label="Portrait placeholder for Noah Boulet">
+            <rect width="160" height="160" rx="12" fill="#eeeeee"/>
+            <text x="80" y="96" text-anchor="middle"
+                  font-family="Arial, sans-serif" font-size="48"
+                  fill="#444444">NB</text>
+          </svg>
 
-        <div class="team-info">
-          <h3> Team Member 2</h3>
-        </div>
+          <div class="team-info">
+            <h3>Noah Boulet</h3>
+            <p class="team-role">HTML &amp; Design</p>
+            <p class="team-bio">
+              Noah contributes to HTML development and visual design,
+              helping turn the team's ideas into UoPromo's pages.
+            </p>
+            <a class="team-github"
+               href="https://github.com/noahboulet06-svg"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Noah Boulet on GitHub (opens in a new tab)">
+              GitHub
+            </a>
+          </div>
         </article>
 
-        <!-- Team Member 3 -->
+        <!-- Yasamin Etemadi -->
         <article class="team-card">
-          <img src="assets/images/...." alt="Team Member 3" class="team-photo">
+          <!-- Replace this SVG with Yasamin's portrait when available. -->
+          <svg class="team-photo" width="160" height="160"
+               viewBox="0 0 160 160" role="img"
+               aria-label="Portrait placeholder for Yasamin Etemadi">
+            <rect width="160" height="160" rx="12" fill="#eeeeee"/>
+            <text x="80" y="96" text-anchor="middle"
+                  font-family="Arial, sans-serif" font-size="48"
+                  fill="#444444">YE</text>
+          </svg>
 
-        <div class="team-info">
-          <h3> Team Member 3</h3>
-        </div>
+          <div class="team-info">
+            <h3>Yasamin Etemadi</h3>
+            <p class="team-role">Design &amp; CSS</p>
+            <p class="team-bio">
+              Yasamin focuses on visual design and CSS, helping create
+              a clear and consistent appearance across the website.
+            </p>
+            <a class="team-github"
+               href="https://github.com/YasaminEtemadi"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Yasamin Etemadi on GitHub (opens in a new tab)">
+              GitHub
+            </a>
+          </div>
         </article>
 
-        <!-- Team Member 4 -->
+        <!-- Harold Kounchou -->
         <article class="team-card">
-          <img src="assets/images/...." alt="Team Member 4" class="team-photo">
+          <!-- Replace this SVG with Harold's portrait when available. -->
+          <svg class="team-photo" width="160" height="160"
+               viewBox="0 0 160 160" role="img"
+               aria-label="Portrait placeholder for Harold Kounchou">
+            <rect width="160" height="160" rx="12" fill="#eeeeee"/>
+            <text x="80" y="96" text-anchor="middle"
+                  font-family="Arial, sans-serif" font-size="48"
+                  fill="#444444">HK</text>
+          </svg>
 
-        <div class="team-info">
-          <h3> Team Member 4</h3>
-        </div>
+          <div class="team-info">
+            <h3>Harold Kounchou</h3>
+            <p class="team-role">HTML &amp; Product Concepts</p>
+            <p class="team-bio">
+              Harold contributes to HTML development and product
+              concepts, helping shape UoPromo's features and
+              student experience.
+            </p>
+            <a class="team-github"
+               href="https://github.com/eToile-360"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Harold Kounchou on GitHub (opens in a new tab)">
+              GitHub
+            </a>
+          </div>
         </article>
 
-        <!-- Team Member 5 -->
+        <!-- Sarah Lim-Baig -->
         <article class="team-card">
-          <img src="assets/images/...." alt="Team Member 5" class="team-photo">
+          <!-- Replace this SVG with Sarah's portrait when available. -->
+          <svg class="team-photo" width="160" height="160"
+               viewBox="0 0 160 160" role="img"
+               aria-label="Portrait placeholder for Sarah Lim-Baig">
+            <rect width="160" height="160" rx="12" fill="#eeeeee"/>
+            <text x="80" y="96" text-anchor="middle"
+                  font-family="Arial, sans-serif" font-size="48"
+                  fill="#444444">SL</text>
+          </svg>
 
-        <div class="team-info">
-          <h3> Team Member 5</h3>
-        </div>
+          <div class="team-info">
+            <h3>Sarah Lim-Baig</h3>
+            <p class="team-role">CSS Lead</p>
+            <p class="team-bio">
+              Sarah leads CSS development and coordinates the
+              website's styling to create a consistent visual
+              experience across UoPromo.
+            </p>
+            <a class="team-github"
+               href="https://github.com/Summer0012345"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Sarah Lim-Baig on GitHub (opens in a new tab)">
+              GitHub
+            </a>
+          </div>
         </article>
-        
       </div>
     </section>
 
     <!-- Team Mission -->
-    <section class="team-mission">
-      <h2>Building Better Opportunities Together</h2>
-      <p>Our goal is to connect students with useful deals, help save money, and 
-        help businesses share offers with the student community</p>
-      <a href="product.html" class="team-btn">Explore UOPROMO</a>
+    <section class="team-mission" aria-labelledby="mission-title">
+      <h2 id="mission-title">Building Better Opportunities Together</h2>
+      <p>
+        As students ourselves, we want to make useful deals easier to
+        find and share. Our goal is to help students save money while
+        connecting local businesses and student associations with
+        the university community.
+      </p>
+      <a href="product.html" class="team-btn">Explore UoPromo</a>
     </section>
-
   </main>
 </body>
 </html>
