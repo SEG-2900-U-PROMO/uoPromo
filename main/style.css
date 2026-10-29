@@ -22,8 +22,8 @@ header{
 }
 
 .brand-logo{
-  width: 45px;
-  height: 45px;
+  width: 65px;
+  height: 50px;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
@@ -58,7 +58,6 @@ header nav a:hover{
 }
 
 header nav a[href="index.html"]{
-  background-color: #2563eb;
   color:#ffffff;
 }
 
