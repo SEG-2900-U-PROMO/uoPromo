@@ -107,11 +107,10 @@ background-color: #F7F3E8;
 
 .box1 {
   background-color:#2E7D4F;
-  min-height: 150px;
+  min-height: 80px;
   padding: 10px;
   display: flex;
   align-items: flex-start;
-  background-image: url('../images/leaf.png');
 }
 
 
