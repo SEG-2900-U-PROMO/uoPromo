@@ -90,17 +90,27 @@ header nav a[href="index.html"]{
 
 /* Pricing Page */
 html{
-background-color: #F7F3E8  
+background-color: #F7F3E8;  
 }
 /* Product Page */
 html{
-background-color: #F7F3E8  
+background-color: #F7F3E8;  
 }
 /* Meet the Team */
 html{
-background-color: #F7F3E8  
+background-color: #F7F3E8;  
 }
 /* Features Page */
 html{
-background-color: #F7F3E8  
+background-color: #F7F3E8;  
 }
+
+.box1 {
+  background-color:#2E7D4F;
+  min-height: 150px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap:30px;  
+}
+
