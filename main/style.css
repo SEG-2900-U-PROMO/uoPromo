@@ -120,6 +120,95 @@ header nav a[href="index.html"]{
   justify-content: center;
   text-align: center;
 }
+/* Student pricing box */
+.student-pricing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.student-plan{
+  background-color: #2E7D4F;
+  color: #F7F3E8;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+.student-plan:hover{
+  background-color: #1F5B3A;
+  transition-duration: 0.4s;
+}
+.plan-icon{
+  font-size: 30px;
+}
+li{
+  text-align: left;
+}
+.pricing-btnstudent-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #F7F3E8;
+  background-color: #143D27;
+  border-radius: 10px;
+  padding: 5px;
+}
+.pricing-btnstudent-btn:hover{
+  border: 1.5px solid #C8941A;
+  transform: rotate(-5deg) scale(1.1);
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+  transition-duration: 0.4s;
+}
+
+/* Business pricing */
+.business-pricing{
+  justify-content: center;
+  align-items: center;
+}
+.pricing-heading{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* Business pricing grid layout */
+.pricing-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  color: #F7F3E8;
+}
+/* Bronze pricing card */
+.pricing-cardbronze{
+  background-color: #2E7D4F;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pricing-cardbronze:hover{
+  background-color: #1F5B3A;
+  transition-duration: 0.4s;
+}
+/* Silver pricing card */
+.pricing-cardsilver{
+  background-color: #2E7D4F;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pricing-cardsilver:hover{
+  background-color: #1F5B3A;
+  transition-duration: 0.4s;
+}
+/* Gold pricing card */
+.pricing-cardgold{
+  background-color: #2E7D4F;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pricing-cardgold:hover{
+  background-color: #1F5B3A;
+  transition-duration: 0.4s;
+}
 
 /* Product Page */
 
