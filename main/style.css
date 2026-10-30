@@ -1,3 +1,33 @@
+/* All pages */
+html{
+  background-color: #F7F3E8;  
+}
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 /* Homepage */
 header{
   display:flex;
@@ -85,26 +115,17 @@ header nav a[href="index.html"]{
   }
 }
   
-
-
-
 /* Pricing Page */
-html{
-background-color: #F7F3E8;  
-}
-/* Product Page */
-html{
-background-color: #F7F3E8;  
-}
-/* Meet the Team */
-html{
-background-color: #F7F3E8;  
-}
-/* Features Page */
-html{
-background-color: #F7F3E8;  
+.pricing-hero{
+  justify-content: center;
+  text-align: center;
 }
 
+/* Product Page */
+
+/* Meet the Team */
+
+/* Features Page */
 .box1 {
   background-color:#2E7D4F;
   min-height: 80px;
